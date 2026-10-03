@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Repair Service Request</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Computer Repair Service Request</h1>
+    <p class="subtitle">Check our services below, then fill out the form to request a repair.</p>
+
+    <h2>Repair Services</h2>
+    <table class="services">
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Description</th>
+          <th>Estimated Time</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Virus Removal</td>
+          <td>Remove malware and secure your system</td>
+          <td>1 day</td>
+          <td>₱500</td>
+        </tr>
+        <tr>
+          <td>Screen Replacement</td>
+          <td>Replace cracked or damaged screens</td>
+          <td>2-3 days</td>
+          <td>₱2,500</td>
+        </tr>
+        <tr>
+          <td>Hardware Upgrade</td>
+          <td>RAM, SSD, or other part upgrades</td>
+          <td>1-2 days</td>
+          <td>₱1,200</td>
+        </tr>
+        <tr>
+          <td>OS Installation</td>
+          <td>Fresh install of Windows or Linux</td>
+          <td>1 day</td>
+          <td>₱800</td>
+        </tr>
+        <tr>
+          <td>Data Recovery</td>
+          <td>Recover lost or deleted files</td>
+          <td>3-5 days</td>
+          <td>₱1,500</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Service Request Form</h2>
+    <form action="#" method="post">
+      <table class="form-table">
+        <tr>
+          <td><label for="name">Customer Name</label></td>
+          <td><input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email Address</label></td>
+          <td><input type="email" id="email" name="email" placeholder="juan@example.com" required></td>
+        </tr>
+        <tr>
+          <td><label for="contact">Contact Number</label></td>
+          <td><input type="tel" id="contact" name="contact" placeholder="09123456789" required></td>
+        </tr>
+        <tr>
+          <td><label for="device">Device Type</label></td>
+          <td>
+            <select id="device" name="device" required>
+              <option value="">-- Select Device --</option>
+              <option value="laptop">Laptop</option>
+              <option value="desktop">Desktop</option>
+              <option value="tablet">Tablet</option>
+              <option value="smartphone">Smartphone</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="service">Preferred Service</label></td>
+          <td>
+            <select id="service" name="service" required>
+              <option value="">-- Select Service --</option>
+              <option value="virus">Virus Removal</option>
+              <option value="screen">Screen Replacement</option>
+              <option value="upgrade">Hardware Upgrade</option>
+              <option value="os">OS Installation</option>
+              <option value="data">Data Recovery</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Service Priority</td>
+          <td>
+            <label class="inline"><input type="radio" name="priority" value="low" checked> Low</label>
+            <label class="inline"><input type="radio" name="priority" value="normal"> Normal</label>
+            <label class="inline"><input type="radio" name="priority" value="urgent"> Urgent</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Additional Services</td>
+          <td>
+            <label class="inline"><input type="checkbox" name="extras" value="cleaning"> Dust Cleaning</label>
+            <label class="inline"><input type="checkbox" name="extras" value="backup"> Data Backup</label>
+            <label class="inline"><input type="checkbox" name="extras" value="pickup"> Pick-up &amp; Delivery</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="date">Preferred Date</label></td>
+          <td><input type="date" id="date" name="date" required></td>
+        </tr>
+        <tr>
+          <td><label for="problem">Problem Description</label></td>
+          <td><textarea id="problem" name="problem" rows="5" placeholder="Describe the problem with your device..."></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset" class="reset">Reset</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+</html>
