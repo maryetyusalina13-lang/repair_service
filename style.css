@@ -1,23 +1,23 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #eef3f8;
+  background: linear-gradient (to right, #d99ec9, #f6f0c4);
   color: #222;
   margin: 0;
   padding: 20px;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1090px;
   margin: 0 auto;
-  background: #ffffff;
+  background: #ffdde1;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px rgba(247, 245, 245, 0.97);
 }
 
 h1 {
   text-align: center;
-  color: #0b4f8a;
+  color: #ee9ca7;
   margin-bottom: 5px;
 }
 
