@@ -12,7 +12,7 @@ body {
   background: #ffdde1;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(247, 245, 245, 0.97);
+  box-shadow: 0 2px 8px rgba(243, 245, 173, 0.97);
 }
 
 h1 {
@@ -23,12 +23,13 @@ h1 {
 
 .subtitle {
   text-align: center;
+  font:italic;
   color: #555;
   margin-top: 0;
 }
 
 h2 {
-  color: #0b4f8a;
+  color: #ee9ca7;
   border-bottom: 2px solid #0b4f8a;
   padding-bottom: 5px;
   margin-top: 30px;
@@ -41,10 +42,13 @@ table {
 
 .services th,
 .services td {
-  border: 1px solid #b8c7d6;
-  padding: 10px;
-  text-align: left;
-}
+border: 1px solid #b8c7d6;
+padding: 10px;
+text-align: left;
+background-color: rgba(255, 255, 255, 0.15); 
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(8px); }
+
 
 .services th {
   background-color: #0b4f8a;
@@ -52,8 +56,7 @@ table {
 }
 
 .services tr:nth-child(even) {
-  background-color: #f2f7fb;
-}
+ background-color: rgba(255, 255, 255, 0.35); }
 
 .form-table td {
   padding: 10px;
@@ -104,7 +107,7 @@ button {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #0b4f8a;
+  background-color: #ee9ca7;
   color: #fff;
 }
 
