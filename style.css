@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient (to right, #d99ec9, #f6f0c4);
+  background: linear-gradient (135deg, #d99ec9, #f6f0c4);
   color: #222;
   margin: 0;
   padding: 20px;
@@ -12,7 +12,7 @@ body {
   background: #ffdde1;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(243, 245, 173, 0.97);
+  box-shadow: 0 2px 8px #f6a5def7;
 }
 
 h1 {
@@ -30,7 +30,6 @@ h1 {
 
 h2 {
   color: #ee9ca7;
-  border-bottom: 2px solid #0b4f8a;
   padding-bottom: 5px;
   margin-top: 30px;
 }
@@ -51,7 +50,7 @@ backdrop-filter: blur(8px);
 
 
 .services th {
-  background-color: #0b4f8a;
+  background-color: #ee9ca7;
   color: #fff;
 }
 
@@ -86,8 +85,8 @@ input:focus,
 select:focus,
 textarea:focus {
   outline: none;
-  border-color: #0b4f8a;
-  box-shadow: 0 0 3px #0b4f8a;
+  border-color: #ee9ca7;
+  box-shadow: 0 0 3px #ee9ca7;
 }
 
 label.inline {
@@ -112,7 +111,7 @@ button {
 }
 
 button:hover {
-  background-color: #083a66;
+  background-color: #ee9ca7;
 }
 
 button.reset {
